@@ -1,0 +1,19 @@
+# Compiled binaries
+*.o
+*.out
+*.exe
+*.elf
+
+# Build directories
+build/
+bin/
+
+# Output audio files
+output/
+*.wav
+
+# Editor / OS files
+*.swp
+*.swo
+*.tmp
+.DS_Store
