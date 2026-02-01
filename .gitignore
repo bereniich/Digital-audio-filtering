@@ -1,4 +1,4 @@
-# Compiled binaries
+C# Compiled binaries
 *.o
 *.out
 *.exe
@@ -8,12 +8,16 @@
 build/
 bin/
 
-# Output audio files
+# Output audio files (ignore all WAVs in output folder)
 output/
 *.wav
 
-# Editor / OS files
+# But track the input WAV for testing
+!rework/streams/7.wav
+
+# Editor / OS temporary files
 *.swp
 *.swo
 *.tmp
 .DS_Store
+
